@@ -13,5 +13,4 @@ for i in range(0, 65535):
     print(hex(crc32result))
     if crc32result == crc32key:
         print(height)
-        print(height)
         break
